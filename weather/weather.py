@@ -89,7 +89,7 @@ if __name__ == '__main__':
         for day_list in result:
 
             # 存储数据
-            savedata(("%d" % (colom)), day_list)
+            savedata(str(colom), day_list)
             # 一共7天数据
             colom = colom + 1
 
